@@ -1,0 +1,9 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/toastmanager/mpit_svfu_2024_frontend.git
+[submodule "cms"]
+	path = cms
+	url = https://github.com/toastmanager/mpit_svfu_2024_cms.git
+[submodule "backend"]
+	path = backend
+	url = https://github.com/toastmanager/mpit_svfu_2024_backend
