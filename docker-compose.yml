@@ -44,7 +44,7 @@ services:
       PORT: 3000
 
   db:
-    image: postgres
+    image: pgvector/pgvector:pg17
     restart: always
     user: postgres
     volumes:
