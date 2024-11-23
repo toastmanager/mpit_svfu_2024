@@ -14,6 +14,12 @@ git clone --recurse-submodules https://github.com/toastmanager/mpit_svfu_2024.gi
 - cms - CMS сервиса
 - frontend - клиентская часть сервиса
 
+## Запуск
+
+```
+docker compose up -d
+```
+
 ## Команда
 
 | Фамилия Имя      | Роль        |
