@@ -2,7 +2,7 @@ services:
   backend:
     build:
       context: ./backend
-      dockerfile: ./Dockerfile.prod
+      dockerfile: ./Dockerfile
     labels:
       - traefik.enable=true
       - traefik.http.routers.backend.rule=(Host(`${HOST}`))
@@ -40,7 +40,6 @@ services:
     env_file:
       - .env
     environment:
-      NEXT_PUBLIC_BACKEND_URL: backend
       PORT: 3000
 
   db:
